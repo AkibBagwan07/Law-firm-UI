@@ -1,0 +1,70 @@
+.parent{
+    background-color:rgb(29,29,29,255);
+}
+
+.head{
+font-family: Inter;
+font-size: 54px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: 0em;
+}
+
+.box{
+   border: 1px solid grey;
+   border-radius: 10px;
+   width: 359px;
+   height: 377px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   background-color: var(--color-black);
+   opacity: 0.9;
+}
+.box2{
+    border: 1px solid grey;
+   border-radius: 10px;
+   width: 359px;
+   height: 377px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+.giftbox{
+    padding-top: 15px;
+width: 119px;
+height: 97px;
+}
+
+.boxParent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text{
+    padding: 20px;
+margin-top: 25px;
+font-family: Inter,sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.para{
+    padding: 20px;
+    margin-top: 25px;
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.button{
+    background-color: var(--color-primary);
+    width: 121px;
+height: 43px;
+border-radius: 23.5px;
+border: none;
+}

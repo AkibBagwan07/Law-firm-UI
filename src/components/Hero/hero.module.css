@@ -1,0 +1,84 @@
+.parent{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 100px;
+ margin-bottom: 200px;
+ margin-right: 153px;
+ margin-left: 153px;
+}
+
+.text{
+    font-family: Inter;
+font-size: 66px;
+font-weight: 500;
+line-height: 97px;
+letter-spacing: 0em;
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    align-items: start;
+}
+
+.image{
+    background-color: var(--color-primary);
+    border-radius: 15px;
+    height: 400px;
+    width: 400px;
+}
+
+.paraText{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;  
+    text-align: left; 
+}
+
+body{
+    position: relative;
+}
+
+.input{
+width: 438px;
+height: 74px;
+border-radius: 43px;
+background-color:#FFFFFF;
+opacity: 10%;
+border: none;
+top: 30rem;
+position: absolute;
+margin-top: 30px;
+}
+
+.inputChild{
+    position:-webkit-sticky;
+    bottom: 85.3rem;
+    left: 180px;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.inputButton{
+position: -webkit-sticky;
+width: 100px;
+height: 62px;
+border: none;
+margin-top: -42px;
+margin-left: 330px;
+border-radius: 43px;
+background-color: var(--color-primary);
+cursor:pointer
+}
+
+input::placeholder {
+    color: black;
+    width: 224px;
+    height: 26px;
+    left: 182px;
+    opacity: 20%
+      }
+  

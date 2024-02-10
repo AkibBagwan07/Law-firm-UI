@@ -1,0 +1,39 @@
+.parent{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  margin-top:20px ;
+  margin-right: 153px;
+  margin-left: 153px;
+}
+
+.logo{
+    display: flex;
+}
+
+.textButtons{
+    display: flex;
+    justify-content:space-between;
+}
+
+.butt{
+    cursor: pointer;
+    margin-left: 35px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+
+.button{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    width: 172px;
+    height: 47px;
+    border: 1px solid white;
+    border-radius: 10px;
+ cursor: pointer;
+}
